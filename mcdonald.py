@@ -1,12 +1,16 @@
-def printverse(animal,sound):
+from strings import indef
+
+def printverse(animal, sound):
+    animal = indef(animal)
+    sound = indef(sound)
     print('Old MacDonald had a farm')
     print('E-I-E-I-O')
-    print('And on this farm he had a', animal)
+    print('And on this farm he had', animal)
     print('E-I-E-I-O')
-    print('With a', sound, sound, 'here')
-    print('With a', sound, sound, 'there')
-    print('Here a', sound, 'there a', sound)
-    print('Everywhere a', sound, sound)
+    print('With', sound, sound, 'here')
+    print('With', sound, sound, 'there')
+    print('Here', sound, 'there', sound)
+    print('Everywhere', sound, sound)
     print('Old MacDonald had a farm')
     print('E-I-E-I-O')
 
@@ -16,6 +20,7 @@ def printsong():
     printverse('horse', 'neigh')
     printverse('pig', 'oink')
     printverse('sheep', 'baa')
+    printverse('owl', 'who')
 
 x = 5
 x = 2 * x
@@ -26,3 +31,5 @@ for n in range(4,6):
     print(n)
     print(n*n)
     
+printsong()
+
