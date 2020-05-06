@@ -6,13 +6,6 @@ def print_sents_with_word(word):
     for line in emma:
         if word in line:
             print(line)
-    
-
-#        for w in line:
-#            if w == word:
-#                if line not in printed:
-#                    printed.append(line)
-#    print(printed)
 
 def find_shortest_sent(word):
     sents = []
