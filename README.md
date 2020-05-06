@@ -1,5 +1,5 @@
 # pythonprojects
-These are my class projects created in Programming for Language Technologists
+These are my class projects created in Programming for Language Technologists at Uppsala University.
 
 Loops.py is a basic loop that sums all the numbers in range 10. 
 Mcdonald.py defines a function that takes two variables, an animal and a sound, then prints out the lyrics to Old McDonald with the inputted animal and sound.
